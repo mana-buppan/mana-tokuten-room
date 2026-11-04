@@ -1,5 +1,5 @@
 const root = document.querySelector('#benefit-cards');
-const categories = [{id:'sourcing',title:'0円仕入れ実売データ'}, {id:'mercari',title:'メルカリお役立ち'}, {id:'other',title:'そのほか'}];
+const categories = [{id:'basics',title:'在宅物販について'}, {id:'sourcing',title:'実売データ'}, {id:'mercari',title:'メルカリお役立ち'}, {id:'other',title:'その他'}];
 const icons={sourcing:'0',mercari:'↗',expenses:'¥',items:'⌂',photos:'◎',data:'▥'};
 function makeCard(item){
  const card=document.createElement(item.ready?'a':'article');

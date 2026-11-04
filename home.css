@@ -177,3 +177,30 @@
 .home .collection{margin-left:18px;margin-right:18px}
 }
 @media(max-width:360px){.intro-copy p{font-size:15px}.intro-hint{font-size:10px}.intro-door{height:202px}}
+
+/* Compact home invitation and four-category collection */
+.home .cta-door{margin-top:24px;margin-bottom:28px}
+.home .cta-door-visual{padding:16px 26px 0;grid-template-columns:1fr 190px}
+.home .cta-door-visual img{width:190px;height:230px;margin-top:8px;transform:none}
+.home .cta-door h2{margin:6px 0 12px}
+.home .cta-door h2 .seminar-intro{line-height:1.35;margin-bottom:5px}
+.home .cta-door-bottom{padding:16px 26px}
+.home .cta-door-bottom p{margin-bottom:12px;line-height:1.65}
+.home .cta-door-bottom small{margin-top:8px}
+.home .collection{margin-bottom:24px}
+@media(max-width:600px){
+ .home .cta-door-visual{padding:14px 14px 0;grid-template-columns:minmax(0,1fr) 106px;gap:4px}
+ .home .cta-door-visual img{width:106px;height:146px;margin-top:0}
+ .home .cta-door-eyebrow{font-size:10px;letter-spacing:0}
+ .home .cta-door h2 .seminar-intro{font-size:26px}
+ .home .cta-door-bottom{padding:14px}
+ .home .cta-door-bottom p{font-size:14px;line-height:1.6}
+ .home .cta-door-button{padding:13px 12px}
+ .home .category-heading h3{font-size:20px}
+ .home .category-count{flex-shrink:0;margin-left:8px}
+}
+@media(max-width:370px){
+ .home .cta-door-visual{grid-template-columns:minmax(0,1fr) 86px;padding:12px 12px 0}
+ .home .cta-door-visual img{width:86px;height:130px}
+ .home .cta-door h2 .seminar-intro{font-size:23px}
+}

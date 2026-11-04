@@ -76,7 +76,7 @@ window.BENEFITS = [
     "href": "roadmap.html",
     "kind": "reply",
     "ready": true,
-    "category": "sourcing",
+    "category": "basics",
     "coverImage": "assets/roadmap-stairs.png",
     "coverAlt": "光へと続くマゼンタの階段"
   },
@@ -134,7 +134,7 @@ window.BENEFITS = [
     "title": "自分で収入をつくる！在宅物販を始める3つの理由",
     "description": "お金・時間・経験の3つの視点から、自分が始める目的と最初の一歩を整理します。",
     "tag": "これからの働き方を考える",
-    "category": "other",
+    "category": "basics",
     "ready": true,
     "href": "side-income.html",
     "coverImage": "assets/side-income-cover.png",
@@ -157,7 +157,7 @@ window.BENEFITS = [
     "tag": "お金と管理",
     "kind": "reply",
     "ready": true,
-    "category": "other",
+    "category": "basics",
     "href": "expenses.html",
     "coverImage": "assets/expenses-cover.png",
     "coverAlt": "電卓・レシート・ノートと白い発送用袋"
