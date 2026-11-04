@@ -1,0 +1,37 @@
+@font-face{font-family:ApparelCorporate;src:url('assets/fonts/Corporate-Logo-Bold-ver3.otf');font-weight:700;font-display:swap}
+.apparel-mosaic{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(0,1fr));gap:10px;padding:12px;background:#f5e6e7;overflow:hidden;height:100%;min-width:0}
+.apparel-tile{position:relative;overflow:hidden;min-width:0;min-height:0}.apparel-tile img{position:absolute;left:0;width:100%;height:auto;max-width:none}
+.apparel-editorial{display:grid;grid-template-columns:46% 54%;aspect-ratio:16/9;background:#bc1657;color:white;overflow:hidden;border-radius:6px;margin-top:20px;font-family:ApparelCorporate,sans-serif}.editorial-copy{padding:7%;display:flex;flex-direction:column;justify-content:center}.editorial-zero{display:flex;gap:10px;align-items:baseline;font-size:clamp(15px,2.8vw,32px);border-bottom:1px solid #ffffff70;padding-bottom:20px;margin:0;white-space:nowrap}.editorial-zero b{font:800 clamp(46px,8vw,100px)/1 Arial,sans-serif;letter-spacing:-.04em}.editorial-zero span{font-size:1.1em}.apparel-editorial h1{font:700 clamp(24px,4.6vw,56px)/1.45 ApparelCorporate,sans-serif;margin:24px 0 16px;letter-spacing:0}.editorial-count{margin:0;font-size:clamp(15px,2.5vw,27px)}.editorial-count b{font:700 clamp(38px,6vw,72px)/1 Arial,sans-serif;letter-spacing:-.04em}
+.home .card-rail .apparel-benefit{background:#bc1657;border-radius:15px;overflow:hidden;border:0}.home .card-rail .cover.apparel-card-photos{display:block;padding:0;filter:none;aspect-ratio:16/9;position:relative}.apparel-card-photos .apparel-mosaic{grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));padding:8px;gap:6px}.home .card-rail .apparel-tile img{left:0;right:auto;top:0;width:100%;height:auto;position:absolute}.home .card-rail .apparel-benefit .card-info{background:#bc1657;color:#fff;padding:19px 22px 21px;flex:0}.home .card-rail .apparel-benefit .tag{color:#fff;background:none;padding:0;font-size:19px;letter-spacing:0}.apparel-benefit .tag b{font:800 32px/1 Arial,sans-serif;margin:0 4px}.home .card-rail .apparel-benefit h4{font:700 24px/1.45 ApparelCorporate,sans-serif;margin:10px 0 16px;letter-spacing:0}.apparel-benefit h4 b{font:700 30px/1 Arial,sans-serif}.home .card-rail .apparel-benefit .card-action{color:white;border-color:#ffffff55;font-size:13px}
+@media(max-width:600px){.apparel-editorial{aspect-ratio:16/10}.apparel-editorial .apparel-mosaic{padding:6px;gap:5px}.editorial-copy{padding:14px}.editorial-zero{font-size:13px;gap:5px;padding-bottom:12px}.editorial-zero b{font-size:43px}.apparel-editorial h1{font-size:23px;line-height:1.45;margin:14px 0 12px}.editorial-count{font-size:14px}.editorial-count b{font-size:38px}}
+@media(max-width:360px){.editorial-copy{padding:10px}.apparel-editorial h1{font-size:20px}.editorial-zero b{font-size:36px}}
+/* 写真本来の色と、コンパクトな見出し */
+.apparel-mosaic{background:#fff}
+.apparel-tile img,.home .card-rail .apparel-tile img{mix-blend-mode:normal;filter:none;opacity:1}
+.home .card-rail .apparel-benefit{align-self:flex-start}
+.home .card-rail .apparel-benefit .card-info{padding:12px 18px 10px}
+.home .card-rail .apparel-benefit .tag{font-size:16px;line-height:1.3}
+.apparel-benefit .tag b{font-size:27px}
+.home .card-rail .apparel-benefit h4{font-size:21px;line-height:1.3;margin:7px 0 8px}
+.apparel-benefit h4 b{font-size:27px}
+.home .card-rail .apparel-benefit .card-action{padding-top:7px;min-height:29px;line-height:1.5;margin-top:0}
+.apparel-editorial{display:flex;flex-direction:column;aspect-ratio:auto}
+.apparel-editorial .apparel-mosaic{order:1;grid-template-columns:repeat(6,minmax(0,1fr));grid-template-rows:1fr;height:auto;aspect-ratio:6/1.15;gap:5px;padding:6px;flex:none}
+.apparel-editorial .editorial-copy{padding:18px 26px 20px;display:grid;grid-template-columns:1fr auto;align-items:center;column-gap:20px}
+.apparel-editorial .editorial-zero{grid-column:1/-1;border:0;padding:0;font-size:23px;gap:8px;line-height:1.2}
+.apparel-editorial .editorial-zero b{font-size:46px}
+.apparel-editorial h1{font-size:36px;line-height:1.35;margin:8px 0 0}
+.apparel-editorial h1 br{display:none}
+.apparel-editorial .editorial-count{font-size:20px;white-space:nowrap;margin-top:8px}
+.apparel-editorial .editorial-count b{font-size:49px}
+@media(max-width:600px){
+.apparel-editorial .apparel-mosaic{padding:3px;gap:3px;aspect-ratio:6/1.4}
+.apparel-editorial .editorial-copy{padding:12px 14px 14px;column-gap:8px}
+.apparel-editorial .editorial-zero{font-size:15px;gap:6px}
+.apparel-editorial .editorial-zero b{font-size:33px}
+.apparel-editorial h1{font-size:21px;margin-top:5px}
+.apparel-editorial h1 br{display:block}
+.apparel-editorial .editorial-count{font-size:15px;margin-top:5px}
+.apparel-editorial .editorial-count b{font-size:42px}
+}
+.apparel-editorial .apparel-mosaic{aspect-ratio:6/1}
