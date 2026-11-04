@@ -37,5 +37,5 @@
 .apparel-editorial .apparel-mosaic{aspect-ratio:6/1}
 
 /* Keep both sales cards on the same title and count baselines. */
-.home .card-rail .apparel-benefit .sales-card-title{display:block;line-height:27.3px;white-space:nowrap}
-.home .card-rail .apparel-benefit .sales-card-title-long{font-size:clamp(14px,4vw,18px)}
+.home .card-rail .apparel-benefit .sales-card-title{display:block;line-height:1.3;min-height:54.6px;white-space:normal}
+.home .card-rail .apparel-benefit .sales-card-title-long{font-size:20px;line-height:27.3px}

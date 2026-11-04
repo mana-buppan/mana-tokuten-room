@@ -255,3 +255,29 @@
  .home .cta-door-visual img{width:76px;height:140px}
  .home .cta-door h2 .seminar-intro{font-size:27px}
 }
+
+/* Larger door artwork and highlighted supporting copy */
+.home .intro-hero .eyebrow{font-size:18px}
+.home .intro-hint{font-size:20px}
+.home .intro-door{height:400px}
+.home .cta-door-eyebrow{font-size:20px}
+.home .cta-door-visual{grid-template-columns:minmax(0,1fr) 245px}
+.home .cta-door-visual img{width:245px;height:290px}
+@media(max-width:900px){
+ .home .intro-hero .eyebrow{font-size:15px}
+ .home .intro-hint{font-size:16px;line-height:1.5}
+ .home .intro-door{height:255px;width:calc(100% + 18px);margin-left:-18px}
+}
+@media(max-width:600px){
+ .home .cta-door-visual{grid-template-columns:minmax(0,1fr) 120px}
+ .home .cta-door-visual img{width:120px;height:185px}
+ .home .cta-door-eyebrow{font-size:16px;line-height:1.5}
+}
+@media(max-width:370px){
+ .home .intro-hero .eyebrow{font-size:14px}
+ .home .intro-hint{font-size:15px}
+ .home .cta-door-visual{grid-template-columns:minmax(0,1fr) 100px}
+ .home .cta-door-visual img{width:100px;height:166px}
+}
+
+@media(max-width:600px){.home .cta-door h2 .seminar-main{white-space:normal}.home .cta-door h2 .seminar-main strong{white-space:nowrap}}
