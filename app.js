@@ -42,7 +42,7 @@ function makeCard(item){
  const action=document.createElement('span');action.className='card-action';action.textContent=item.ready?'特典を読む　↗':'準備中';
  if(item.href==='apparel.html'||item.href==='allgenre.html'){
  tag.innerHTML='仕入れ値 <b>0</b> 円';
- title.innerHTML=(item.salesTitle||'アパレル実売データ')+'<br><b>'+(item.salesCount||300)+'</b> 選';
+ title.innerHTML='<span class="sales-card-title'+(item.href==='allgenre.html'?' sales-card-title-long':'')+'">'+(item.salesTitle||'アパレル実売データ')+'</span><b>'+(item.salesCount||300)+'</b> 選';
  info.append(tag,title,action);
  }else{info.append(tag,title,desc,action);}
  card.append(cover,info);return card;

@@ -204,3 +204,54 @@
  .home .cta-door-visual img{width:86px;height:130px}
  .home .cta-door h2 .seminar-intro{font-size:23px}
 }
+
+/* Readable home typography */
+.home .intro-hero .eyebrow{font-size:15px}
+.home .intro-copy h1{font-size:38px}
+.home .intro-copy p{font-size:24px}
+.home .intro-hint{font-size:16px;white-space:normal}
+.home .intro-note{font-size:14px}
+.home .collection .eyebrow{font-size:14px}
+.home .cta-door-eyebrow{font-size:16px}
+.home .cta-door h2 .seminar-intro{font-size:52px}
+.home .cta-door h2 .seminar-main strong{font-size:34px}
+.home .cta-door h2 .seminar-main,.home .cta-door h2 .seminar-main>span{font-size:29px}
+.home .cta-door-bottom p{font-size:20px}
+.home .cta-door-button{font-size:21px}
+.home .cta-door-bottom small{font-size:15px}
+.home footer .footer-brand{font-size:20px}
+.home footer p{font-size:16px}
+.home footer small,.home footer .backtop{font-size:13px}
+@media(max-width:900px){
+ .home .intro-hero .eyebrow{font-size:13px;margin-bottom:10px}
+ .home .intro-row{grid-template-columns:60% 40%}
+ .home .intro-copy h1{font-size:clamp(20px,5.6vw,26px);line-height:1.4;margin-bottom:10px}
+ .home .intro-copy p{font-size:18px;line-height:1.5}
+ .home .intro-hint{font-size:13px;line-height:1.5}
+ .home .intro-note{font-size:12px;margin-top:10px}
+ .home .intro-door{height:230px;width:100%;margin-left:0}
+ .home .brand{font-size:16px}
+ .home .brand small{font-size:11px}
+}
+@media(max-width:600px){
+ .home .cta-door-visual{grid-template-columns:minmax(0,1fr) 92px}
+ .home .cta-door-visual img{width:92px;height:154px}
+ .home .cta-door-eyebrow{font-size:12px;line-height:1.5;display:block}
+ .home .cta-door h2 .seminar-intro{font-size:30px}
+ .home .cta-door h2 .seminar-main strong{font-size:23px}
+ .home .cta-door h2 .seminar-main,.home .cta-door h2 .seminar-main>span{font-size:20px}
+ .home .cta-door-bottom p{font-size:16px}
+ .home .cta-door-button{font-size:18px}
+ .home .cta-door-bottom small{font-size:13px}
+ .home footer .footer-brand{font-size:17px}
+ .home footer p{font-size:13px}
+}
+@media(max-width:370px){
+ .home .intro-copy h1{font-size:20px}
+ .home .intro-copy p{font-size:17px}
+ .home .intro-hint{font-size:12px}
+ .home .intro-note{font-size:11px}
+ .home .cta-door-visual{grid-template-columns:minmax(0,1fr) 76px}
+ .home .cta-door-visual img{width:76px;height:140px}
+ .home .cta-door h2 .seminar-intro{font-size:27px}
+}
